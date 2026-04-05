@@ -1,7 +1,7 @@
 {
-  "name": "glinx-backend",
+  "name": "Glinqx-backend",
   "version": "1.0.0",
-  "description": "Backend for Glinx – social bookmarking platform",
+  "description": "Backend for Glinqx – social bookmarking platform",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

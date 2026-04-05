@@ -1,4 +1,4 @@
-# Glinx – ABSOLUTE FINAL SRS (One‑Man Army, Pure CSS, 3 Weeks)
+# Glinqx – ABSOLUTE FINAL SRS (One‑Man Army, Pure CSS, 3 Weeks)
 
 This document is **complete**. Every required feature, every route, every file name, every CSS detail is here. No section is missing.
 
@@ -6,7 +6,7 @@ This document is **complete**. Every required feature, every route, every file n
 
 ## Table of Contents
 
-- [Glinx – ABSOLUTE FINAL SRS (One‑Man Army, Pure CSS, 3 Weeks)](#glinx--absolute-final-srs-oneman-army-pure-css-3-weeks)
+- [Glinqx – ABSOLUTE FINAL SRS (One‑Man Army, Pure CSS, 3 Weeks)](#Glinqx--absolute-final-srs-oneman-army-pure-css-3-weeks)
   - [Table of Contents](#table-of-contents)
   - [1. Product Vision \& Core Features](#1-product-vision--core-features)
     - [1.1 Must‑have (no compromise)](#11-musthave-no-compromise)
@@ -51,7 +51,7 @@ This document is **complete**. Every required feature, every route, every file n
 
 ## 1. Product Vision & Core Features
 
-**Glinx** – social bookmarking + real‑time chat + graph discovery.
+**Glinqx** – social bookmarking + real‑time chat + graph discovery.
 
 ### 1.1 Must‑have (no compromise)
 - User system: register, login (JWT httpOnly), profile, follow/unfollow, block, interests
@@ -392,7 +392,7 @@ All pages are lazy‑loaded using `React.lazy()` for code splitting.
 - Frontend pages: `PageName.jsx` + `PageName.module.css`
 
 ```
-Glinx/
+Glinqx/
 ├── backend/
 │   ├── src/
 │   │   ├── config/
@@ -663,7 +663,7 @@ Returns:
 | 9 | Promoted links | `links.is_promoted` boolean | In feed queries, `ORDER BY is_promoted DESC, created_at DESC` |
 | 10 | PWA | `public/manifest.json`, `sw.js` | Register service worker in `main.jsx`; cache static assets |
 | 11 | Click tracking | `shortlinks.click_count`, `links.view_count` | Increment on redirect and on link detail page view |
-| 12 | Welcome message | `link.controller.js` after create | If user's total link count == 1, auto‑comment from system user: “Welcome to Glinx!” |
+| 12 | Welcome message | `link.controller.js` after create | If user's total link count == 1, auto‑comment from system user: “Welcome to Glinqx!” |
 
 ---
 
@@ -694,7 +694,7 @@ Returns:
 ### Backend `.env`
 ```
 PORT=5000
-DATABASE_URL=postgresql://user:pass@host:5432/Glinx
+DATABASE_URL=postgresql://user:pass@host:5432/Glinqx
 JWT_SECRET=your_super_secret_key
 CLIENT_URL=http://localhost:5173
 SMTP_HOST=...

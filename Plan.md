@@ -1,4 +1,4 @@
-# Glinx – Very, Very, Very Detailed Implementation Plan (One‑Man Army, 3 Weeks)
+# Glinqx – Very, Very, Very Detailed Implementation Plan (One‑Man Army, 3 Weeks)
 
 This plan breaks down every single task into **sub‑day chunks**, with terminal commands, file paths, code snippets, and testing steps.  
 Follow it exactly. Do not skip anything.
@@ -11,7 +11,7 @@ Follow it exactly. Do not skip anything.
 
 #### 1.1 Create project folders (10 min)
 ```bash
-mkdir Glinx && cd Glinx
+mkdir Glinqx && cd Glinqx
 mkdir backend frontend database
 cd backend
 npm init -y
@@ -257,7 +257,7 @@ export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.container}>
-        <Link to="/" className={styles.logo}>Glinx</Link>
+        <Link to="/" className={styles.logo}>Glinqx</Link>
         <div className={styles.navLinks}>
           {user ? (
             <>
@@ -580,7 +580,7 @@ Add checkbox in SubmitLinkPage; if true, set `userId` to a system user (create a
 Add `is_promoted` checkbox for admin; adjust feed query.
 
 #### 20.5 Welcome message (1 hour)
-In `link.controller.js` after insert, if user's total link count === 1, auto‑comment: "Welcome to Glinx!".
+In `link.controller.js` after insert, if user's total link count === 1, auto‑comment: "Welcome to Glinqx!".
 
 #### 20.6 Final testing of all 12 features (2 hours)
 
@@ -631,4 +631,4 @@ Create `.env.production` for frontend with production API URL.
 - **If stuck >30 minutes**, take a break or search Stack Overflow.
 - **Keep the SRS open** in a separate tab.
 
-You have everything. Go build Glinx.
+You have everything. Go build Glinqx.

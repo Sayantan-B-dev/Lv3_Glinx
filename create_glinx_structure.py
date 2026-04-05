@@ -1,6 +1,6 @@
 import os
 
-PROJECT_ROOT = "Glinx"
+PROJECT_ROOT = "Glinqx"
 
 # ------------------------------------------------------------
 # Backend structure (all paths are relative to PROJECT_ROOT)
