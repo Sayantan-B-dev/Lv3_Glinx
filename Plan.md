@@ -4,6 +4,9 @@ This plan breaks down every single task into **sub‑day chunks**, with terminal
 Follow it exactly. Do not skip anything.
 
 ---
+# Starting date 11th April
+# Expected deadline 30th April
+--+
 
 ## Week 1 – Core CRUD + Auth + CSS Foundation
 
